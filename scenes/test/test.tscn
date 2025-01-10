@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://becvkiuoyxfej"]
+
+[ext_resource type="Texture2D" uid="uid://cj4fy5kfo7vhr" path="res://assets/images/stadium-1525532_1280.jpg" id="1_traul"]
+[ext_resource type="PackedScene" uid="uid://csnqswquk0u3l" path="res://actors/frontman/frontman.tscn" id="1_xxrov"]
+[ext_resource type="PackedScene" uid="uid://dgeie31qkit6s" path="res://actors/greenman/greenman.tscn" id="3_owync"]
+[ext_resource type="PackedScene" uid="uid://rk72732bc5p" path="res://actors/redman/redman.tscn" id="4_144bm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jh3n2"]
+size = Vector2(1383, 177)
+
+[node name="Test" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1280.0
+offset_bottom = 857.0
+texture = ExtResource("1_traul")
+
+[node name="Frontman" parent="." instance=ExtResource("1_xxrov")]
+position = Vector2(569, 256)
+scale = Vector2(0.5, 0.5)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(45, 168)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(502, 451.5)
+shape = SubResource("RectangleShape2D_jh3n2")
+
+[node name="Greenman" parent="." instance=ExtResource("3_owync")]
+position = Vector2(317, 393)
+scale = Vector2(0.5, 0.5)
+
+[node name="Redman" parent="." instance=ExtResource("4_144bm")]
+position = Vector2(802, 375)
+scale = Vector2(0.4, 0.4)

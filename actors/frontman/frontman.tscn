@@ -1,0 +1,203 @@
+[gd_scene load_steps=43 format=3 uid="uid://csnqswquk0u3l"]
+
+[ext_resource type="Texture2D" uid="uid://oniibawyf8o1" path="res://assets/images/Squid game frontman/Idle/0001.png" id="1_iu6fh"]
+[ext_resource type="Script" path="res://actors/frontman/frontman.gd" id="1_nt0ma"]
+[ext_resource type="Texture2D" uid="uid://cd3phjg2ogta0" path="res://assets/images/Squid game frontman/Death/0001.png" id="1_swnnn"]
+[ext_resource type="Texture2D" uid="uid://eqxo2y35orvo" path="res://assets/images/Squid game frontman/Death/0011.png" id="2_qkip1"]
+[ext_resource type="Texture2D" uid="uid://bqxrtif1c6k2k" path="res://assets/images/Squid game frontman/Idle/0009.png" id="2_sa02f"]
+[ext_resource type="Texture2D" uid="uid://bq68fj8t6o4mx" path="res://assets/images/Squid game frontman/Death/0021.png" id="3_1erxn"]
+[ext_resource type="Texture2D" uid="uid://k0smkss7gfjp" path="res://assets/images/Squid game frontman/Idle/0017.png" id="3_2uh83"]
+[ext_resource type="Texture2D" uid="uid://co1jyvvvxp74a" path="res://assets/images/Squid game frontman/Idle/0025.png" id="4_7bw5f"]
+[ext_resource type="Texture2D" uid="uid://cmjcgkfelnoug" path="res://assets/images/Squid game frontman/Death/0031.png" id="4_qyjdt"]
+[ext_resource type="Texture2D" uid="uid://c3ccrwiiscen" path="res://assets/images/Squid game frontman/Death/0041.png" id="5_odtdv"]
+[ext_resource type="Texture2D" uid="uid://dq7uub2qdv3s7" path="res://assets/images/Squid game frontman/Idle/0033.png" id="5_yvj6k"]
+[ext_resource type="Texture2D" uid="uid://c3xby08owdpmf" path="res://assets/images/Squid game frontman/Idle/0041.png" id="6_5ipim"]
+[ext_resource type="Texture2D" uid="uid://dhdomsaiey2rk" path="res://assets/images/Squid game frontman/Death/0051.png" id="6_f6dok"]
+[ext_resource type="Texture2D" uid="uid://dyhe466crpqqx" path="res://assets/images/Squid game frontman/Idle/0049.png" id="7_x6ya7"]
+[ext_resource type="Texture2D" uid="uid://bqp74t2gchofs" path="res://assets/images/Squid game frontman/Death/0061.png" id="7_xsuok"]
+[ext_resource type="Texture2D" uid="uid://m60twxhc20sq" path="res://assets/images/Squid game frontman/Idle/0057.png" id="8_16vm4"]
+[ext_resource type="Texture2D" uid="uid://cwwfide48gxoa" path="res://assets/images/Squid game frontman/Death/0071.png" id="8_pdv7x"]
+[ext_resource type="Texture2D" uid="uid://t8kpqmbh8quy" path="res://assets/images/Squid game frontman/jump/0001.png" id="17_bta68"]
+[ext_resource type="Texture2D" uid="uid://lmabto2lfq2u" path="res://assets/images/Squid game frontman/jump/0009.png" id="18_wyhpf"]
+[ext_resource type="Texture2D" uid="uid://dh5iseapr440p" path="res://assets/images/Squid game frontman/jump/0017.png" id="19_u3x2q"]
+[ext_resource type="Texture2D" uid="uid://btwy2kipelric" path="res://assets/images/Squid game frontman/jump/0025.png" id="20_0tdau"]
+[ext_resource type="Texture2D" uid="uid://du4ehbledniv" path="res://assets/images/Squid game frontman/jump/0033.png" id="21_viy3l"]
+[ext_resource type="Texture2D" uid="uid://c8fpgs22ubqb1" path="res://assets/images/Squid game frontman/jump/0041.png" id="22_ufq81"]
+[ext_resource type="Texture2D" uid="uid://c1xxqt81v4v33" path="res://assets/images/Squid game frontman/jump/0049.png" id="23_bcus6"]
+[ext_resource type="Texture2D" uid="uid://dpa2ydy08qsgg" path="res://assets/images/Squid game frontman/jump/0057.png" id="24_4gld8"]
+[ext_resource type="Texture2D" uid="uid://dutnkghgwg0cj" path="res://assets/images/Squid game frontman/run/0001.png" id="25_iq7s1"]
+[ext_resource type="Texture2D" uid="uid://d2dstw0po16lv" path="res://assets/images/Squid game frontman/run/0004.png" id="26_xrkly"]
+[ext_resource type="Texture2D" uid="uid://dk8de2ssq1uyg" path="res://assets/images/Squid game frontman/run/0007.png" id="27_ee6yt"]
+[ext_resource type="Texture2D" uid="uid://b3o402wlf5upo" path="res://assets/images/Squid game frontman/run/0010.png" id="28_xmk4f"]
+[ext_resource type="Texture2D" uid="uid://kipfxaie3378" path="res://assets/images/Squid game frontman/run/0013.png" id="29_dl3wx"]
+[ext_resource type="Texture2D" uid="uid://txr4pmrudrty" path="res://assets/images/Squid game frontman/run/0016.png" id="30_8trdu"]
+[ext_resource type="Texture2D" uid="uid://xiur73v6oeoi" path="res://assets/images/Squid game frontman/run/0019.png" id="31_jtagw"]
+[ext_resource type="Texture2D" uid="uid://i0n7nek2cu5c" path="res://assets/images/Squid game frontman/shoot/0001.png" id="32_i7w67"]
+[ext_resource type="Texture2D" uid="uid://dbdqtar8gh573" path="res://assets/images/Squid game frontman/shoot/0005.png" id="33_nwc7e"]
+[ext_resource type="Texture2D" uid="uid://dclphj1fd461x" path="res://assets/images/Squid game frontman/shoot/0009.png" id="34_rh26o"]
+[ext_resource type="Texture2D" uid="uid://b0ndr885ljkii" path="res://assets/images/Squid game frontman/shoot/0013.png" id="35_a70d5"]
+[ext_resource type="Texture2D" uid="uid://hjxv0gnnfkdr" path="res://assets/images/Squid game frontman/shoot/0017.png" id="36_07c2i"]
+[ext_resource type="Texture2D" uid="uid://dxl8bxjxe8hhb" path="res://assets/images/Squid game frontman/shoot/0021.png" id="37_ue2ck"]
+[ext_resource type="Texture2D" uid="uid://dn8okt81v6g6j" path="res://assets/images/Squid game frontman/shoot/0025.png" id="38_6cahg"]
+[ext_resource type="Texture2D" uid="uid://dusysih2qasg2" path="res://assets/images/Squid game frontman/shoot/0029.png" id="39_cb2th"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_medkf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_swnnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_qkip1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1erxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qyjdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_odtdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f6dok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xsuok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pdv7x")
+}],
+"loop": false,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_iu6fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_sa02f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2uh83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7bw5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yvj6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5ipim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_x6ya7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_16vm4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_bta68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wyhpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_u3x2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_0tdau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_viy3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ufq81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bcus6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_4gld8")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_iq7s1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_xrkly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ee6yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_xmk4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_dl3wx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_8trdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jtagw")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_i7w67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_nwc7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rh26o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_a70d5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_07c2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ue2ck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_6cahg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_cb2th")
+}],
+"loop": false,
+"name": &"shoot",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ubbho"]
+radius = 35.0
+height = 184.0
+
+[node name="Frontman" type="CharacterBody2D"]
+script = ExtResource("1_nt0ma")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_medkf")
+animation = &"idle"
+speed_scale = 2.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-43, -4)
+shape = SubResource("CapsuleShape2D_ubbho")
