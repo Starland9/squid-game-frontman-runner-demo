@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj4fy5kfo7vhr"
-path="res://.godot/imported/stadium-1525532_1280.jpg-ab2de2c7774c170cd3e0a56b6073c83f.ctex"
+path="res://.godot/imported/stadium-1525532_1280.jpg-719093d90692f880c7e81213cae29d33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/stadium-1525532_1280.jpg"
-dest_files=["res://.godot/imported/stadium-1525532_1280.jpg-ab2de2c7774c170cd3e0a56b6073c83f.ctex"]
+source_file="res://assets/images/backgrounds/stadium-1525532_1280.jpg"
+dest_files=["res://.godot/imported/stadium-1525532_1280.jpg-719093d90692f880c7e81213cae29d33.ctex"]
 
 [params]
 

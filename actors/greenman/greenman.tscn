@@ -243,3 +243,4 @@ speed_scale = 2.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(32, -29)
 shape = SubResource("CapsuleShape2D_gmph2")
+disabled = true

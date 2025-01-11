@@ -1,6 +1,8 @@
 extends CharacterBody2D
 class_name Redman
 
+@export var movable := false
+
 @onready var anim = $AnimatedSprite2D
 
 enum states {IDLE, RUN, JUMP, SHOOT, DEATH, AIM}
@@ -23,7 +25,6 @@ func _ready() -> void:
 func _set_state(new_state: int) -> void:
 	if state != new_state:
 		state = new_state
-		print(states.keys()[state])
 
 func _physics_process(delta: float) -> void:
 	
@@ -33,11 +34,11 @@ func _physics_process(delta: float) -> void:
 
 
 
-func _manage_moves(delta: float) -> void:
+func _manage_moves(_delta: float) -> void:
 	# apply gravity
-	velocity.y += GRAVITY * delta * 100
+	# velocity.y += GRAVITY * delta * 100
 
-	if not in_shoot:
+	if not in_shoot and movable:
 		move_dir = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 		face_dir = sign(move_dir) if move_dir != 0 else face_dir
 		anim.flip_h = face_dir == -1

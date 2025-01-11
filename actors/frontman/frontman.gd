@@ -23,7 +23,6 @@ func _ready() -> void:
 func _set_state(new_state: int) -> void:
 	if state != new_state:
 		state = new_state
-		print(states.keys()[state])
 
 func _physics_process(delta: float) -> void:
 	
